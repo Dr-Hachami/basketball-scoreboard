@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-head">
+        <div class="container">
+            <div class="card">
+                <h3>HOME</h3>
+                <div class="record" id="home"></div>
+                <div>
+                    <span onclick="addOneHome()">+1</span>
+                    <span onclick="addTowHome()">+2</span>
+                    <span onclick="addThreeHome()">+3</span>
+                </div>
+            </div>
+            <button onclick="reset()">Reset</button>
+            <div class="card" >
+                <h3>GUEST</h3>
+                <div class="record" id="guest"></div>
+                <div>
+                    <span onclick="addOneGuest()">+1</span>
+                    <span onclick="addTowGuest()">+2</span>
+                    <span onclick="addThreeGuest()">+3</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

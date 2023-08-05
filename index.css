@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+.container-head{
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+}
+button{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    height: 30px;
+    width: 60px;
+    margin: auto 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* width: 575px;
+    height: 385px; */
+    background: #1B244A;    
+}
+.record{
+    color: #F94F6D;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125px; /* 140.74% */
+    width: 155px;
+    height: 120px;
+    background: #080001;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    margin-bottom: 21px;
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+}
+span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border : 2px solid #9AABD8;
+    /* color: #9AABD8; */
+    margin: 24px 8px;
+    border-radius: 4px;
+    /* padding: auto auto; */
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: 45px; 
+}
